@@ -4,8 +4,11 @@ body {
 p {
     font-size: 24px;
 }
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .color-container{
-    background-color: white;
+    background-color: rgba(197, 195, 195, 0.562);
     padding: 25px 25px;
     margin-top: 40px;
 }
@@ -28,9 +31,18 @@ p {
 }
 
 .hr {
-    border-top: 5px solid red;
+    border-top: 5px solid rgb(88, 0, 88);
     display: block;
     width: 100%;
     margin-bottom: 30px;
     margin-top: 10px
+}
+.footer-container {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(197, 195, 195, 0.562);
+    text-align: center;
+
 }
