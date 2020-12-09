@@ -1,17 +1,31 @@
 body {
-    background-color: lightblue;
+    background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_180768.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken 10%;
 }
+
+.col-md-6 {
+    column-gap: 50px;
+}
+
 p {
     font-size: 24px;
+    color: gold;
 }
-h1 {
+
+h1, h2, h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
 }
+
 .color-container{
     background-color: rgba(197, 195, 195, 0.562);
     padding: 25px 25px;
     margin-top: 40px;
 }
+
 .img-fluid {
     padding: 10px
 }
@@ -37,12 +51,17 @@ h1 {
     margin-bottom: 30px;
     margin-top: 10px
 }
+
 .footer-container {
     position: fixed;
     width: 100%;
+    padding: 1%;
     left: 0;
     bottom: 0;
-    background-color: rgba(197, 195, 195, 0.562);
+    background-color: black;
     text-align: center;
+}
 
+.container {
+    padding: 0 0 110px 0;
 }
