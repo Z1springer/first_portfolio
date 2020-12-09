@@ -1,3 +1,4 @@
+/* Adds parameters to the background image being used by all three web-pages */
 body {
     background-image: url("https://wallpaper-house.com/data/out/7/wallpaper2you_180768.jpg"); 
     background-repeat: no-repeat;
@@ -5,31 +6,27 @@ body {
     background-size: cover;
     background-blend-mode: darken 10%;
 }
-
-.col-md-6 {
-    column-gap: 50px;
-}
-
+/* Specifies the font size and color of the lettering */
 p {
     font-size: 24px;
     color: gold;
 }
-
+/* Specifies the font family and color of the lettering */
 h1, h2, h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: gold;
 }
-
+/* Adds color and padding, as well as a margin to the background of the index page main content */
 .color-container{
     background-color: rgba(197, 195, 195, 0.562);
     padding: 25px 25px;
     margin-top: 40px;
 }
-
+/* Gives padding to each image on the portfolio page */
 .img-fluid {
     padding: 10px
 }
-
+/* Allows the image on the index page to fit in with the text in the same row */
 .portfolio-img {
     display: flex;
     flex-wrap: wrap;
@@ -37,13 +34,13 @@ h1, h2, h3 {
     /* background-color: red; */
     justify-content: flex-end;
 }
-
+/* Specifically tells the image on the index page where it needs to be, as well as putting some space between it and the text */
 #profile-image {
     width: 250px;
     float: left;
     margin: 0 30px 0 0;
 }
-
+/* Visable breaks in the page to allow easier labeling */
 .hr {
     border-top: 5px solid rgb(88, 0, 88);
     display: block;
@@ -51,7 +48,7 @@ h1, h2, h3 {
     margin-bottom: 30px;
     margin-top: 10px
 }
-
+/* All aspects needed to make a footer at the bottom of the page */
 .footer-container {
     position: fixed;
     width: 100%;
@@ -61,7 +58,7 @@ h1, h2, h3 {
     background-color: black;
     text-align: center;
 }
-
+/* Gives the container on the portfolio page some extra padding on the bottom so that the page all fits together smoothly */
 .container {
     padding: 0 0 110px 0;
 }
